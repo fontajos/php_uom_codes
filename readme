@@ -1,0 +1,17 @@
+UOM Codes CODES FOR UNITS OF MEASURE USED IN INTERNATIONAL TRADE Revision 8 / 2012
+(UNECE/CEFACT Trade Facilitation Recommendation No.20)
+
+Source of Definitions: http://www.unece.org/cefact/recommendations/rec_index.htm
+
+Examples:
+---------
+
+$uom_code   = uom_code::get_uom_code_from_measure('kg');
+
+$measure    = uom_code::get_measure_from_uom_code('MTR');
+
+$lookup_arr = uom_code::get_lookup_array();
+
+
+--
+fjo, 20.02.2013
