@@ -12,6 +12,9 @@ $measure    = uom_code::get_measure_from_uom_code('MTR');
 
 $lookup_arr = uom_code::get_lookup_array();
 
+License:
+--------
+No strings attached - free to use :-)
 
 --
 fjo, 20.02.2013
