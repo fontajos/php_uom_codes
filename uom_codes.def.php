@@ -11,7 +11,7 @@
 
 // -----------------------------------------------------------------------
 // UOM Codes Definitions and Measure Lookup
-// CODES FOR UNITS OF MEASURE USED IN INTERNATIONAL TRADE Revision 8 / 2012
+// CODES FOR UNITS OF MEASURE USED IN INTERNATIONAL TRADE Revision 8 / 2012 Annex-I
 // (UNECE/CEFACT Trade Facilitation Recommendation No.20)
 // Source: http://www.unece.org/cefact/recommendations/rec_index.htm
 class uom_code {
@@ -1563,6 +1563,7 @@ class uom_code {
             $uom_codes['36'] = 'ft³/(min/ft²)';
             $uom_codes['P87'] = '(m³/s)/m²';
             $uom_codes['C62'] = '1';
+            $uom_codes['H87'] = 'piece';
         }
         return $uom_codes;
     }
